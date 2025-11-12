@@ -30,7 +30,7 @@ jobs:
           command: |
             cd bankchurn-api
             railway up --service=graceful-blessing
-            railway up --detach
+            railway up
 
 
 tags_only: &tags_only
